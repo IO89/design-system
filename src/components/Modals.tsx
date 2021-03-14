@@ -23,11 +23,6 @@ const SignUpHeader = styled.h3`
   font-size: ${typeScale.header3};
 `;
 
-const SignUpText = styled.p`
-  font-size: ${typeScale.paragraph};
-  max-width: 70%;
-  text-align: center;
-`;
 const CloseModalButton = styled.button`
   cursor: pointer;
   background: none;
@@ -56,7 +51,6 @@ export const SignUpModal = ({ showModal, setShowModal }: SignUpModalProps): JSX.
       <ModalWrapper>
         <img src={Illustrations.SignUp} alt='Sign up for' aria-hidden='true' />
         <SignUpHeader>Sign Up</SignUpHeader>
-        <SignUpText>Sign up today!</SignUpText>
         <PrimaryButton>Sign up!</PrimaryButton>
         <CloseModalButton aria-label='Close modal'>
           <CloseIcon />
