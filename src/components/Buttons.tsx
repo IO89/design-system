@@ -15,7 +15,7 @@ const BUTTON_MODIFIERS = {
   warning: () => `
     background-color: ${(props) => props.theme.status.warningColor};
     color: ${(props) => props.theme.textColorInverted};
-    
+
     &:hover, &:focus {
       background-color: ${(props) => props.theme.status.warningColorHover};
       outline: 3px solid ${(props) => props.theme.status.warningColorHover};
